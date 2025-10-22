@@ -99,12 +99,12 @@ button:hover{
     display: block;
     opacity: 1;
 }
-#colorCountdown, #headingCountdown{
+#colorCountDown, #headingCountDown{
     margin-top: 0.5rem;
     font-size: 0.9rem;
     color: #666;
 }
-#colorCountdown.hide, #headingCountdown.hide{
+#colorCountDown.hide, #headingCountDown.hide{
     display: none;
 }
 #resetButton{
