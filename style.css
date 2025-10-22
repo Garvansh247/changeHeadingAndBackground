@@ -90,10 +90,9 @@ button:hover{
 #tmpMsgHeading, #tmpMsgColor{
     margin-top: 1rem;
     font-size: 1rem;
-    color: #333;
-    display: none;
+    color: black;
+    /* display: none; */
     transition: all 0.3s ease;
-    opacity: 0;
 }
 #tmpMsgHeading.show, #tmpMsgColor.show{
     display: block;
