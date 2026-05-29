@@ -41,7 +41,6 @@ let colorChangeInterval=null;
 let headerChange=null;
 let countDown = 10;
 changeHeadingBtn.addEventListener("click", function() {
-    tmpMsgHeading.style.display = "block";
     tmpMsgHeading.innerHTML = originalTmpMsgHeadingText;
     tmpMsgHeading.setAttribute("style", "display: block;");
     countDown = 10;
@@ -74,7 +73,6 @@ stopHeadingChangeBtn.addEventListener("click", function() {
 
 
 changeColorBtn.addEventListener("click", function() {
-    tmpMsgColor.style.display = "block";
     tmpMsgColor.innerHTML = originalTmpMsgColorText;
     tmpMsgColor.setAttribute("style", "display: block;");
     if(!colorChangeInterval) colorChangeInterval = setInterval(() => {
@@ -108,4 +106,4 @@ resetButton.addEventListener("click", function() {
   tmpMsgHeading.style.display = "none";
   tmpMsgColor.style.display = "none";
 
-});
+}); 
